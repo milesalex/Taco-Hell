@@ -1,0 +1,26 @@
+{
+  "name": "node-twitter-bot",
+  "version": "0.1.0-12",
+  "author": "Alex Miles <howdy@alexmilesdesign.com>",
+  "description": "A framework for making twitter bots to educate and annoy.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonlong/node-twitter-bot.git"
+  },
+  "dependencies": {
+    "express": "2.5.x",
+    "node-twitter": "0.4.x",
+    "ntwitter": "0.4.x"
+  },
+  "license": "MIT",
+  "engine": {
+    "node": ">=0.6.x < 0.7.0"
+  },
+  "subdomain": "milesalex.node-twitter-bot",
+  "scripts": {
+    "start": "app.js"
+  },
+  "engines": {
+    "node": "0.6.x"
+  }
+}
