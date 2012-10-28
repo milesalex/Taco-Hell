@@ -1,8 +1,8 @@
 
 var searchStrings = [
-	'Taco Bell sick', 
-	'Taco Bell vomit', 
-	'taco bell sick',  
+	'Taco Bell sick',
+	'Taco Bell vomit',
+	'taco bell sick',
 	'Taco bell sick',
 	'sick taco bell',
 	'vomit taco bell',
@@ -24,20 +24,20 @@ var app = express.createServer(express.logger()),
     port = process.env.PORT || 3000;
 
 app.get('/', function(req, res) {
-  res.send('HELLO WORLD');
+	res.send('HELLO WORLD');
 });
 
 app.listen(port, function() {
-  console.log("Listening on " + port);
+	console.log("Listening on " + port);
 });
 
 
 
 var twit = new twitter({
-  consumer_key: 		'4tAm43gekQCdSwxZnEbEQ',
-  consumer_secret: 		'q41sTpAg8Ci1ENXJU3jkkC4EQIu2mGqEIyWzHnSE',
-  access_token_key: 	'772725366-z9MefWFxhgxkxQC6CP6VUM8BU2ClIFIMzE4eoqZi',
-  access_token_secret: 	'1pTCKtURxQOrrfntHfkrWG0KVAHwa4lJESDjjCTow4'
+	consumer_key: 		'4tAm43gekQCdSwxZnEbEQ',
+	consumer_secret: 	'q41sTpAg8Ci1ENXJU3jkkC4EQIu2mGqEIyWzHnSE',
+	access_token_key: 	'772725366-z9MefWFxhgxkxQC6CP6VUM8BU2ClIFIMzE4eoqZi',
+	access_token_secret:'1pTCKtURxQOrrfntHfkrWG0KVAHwa4lJESDjjCTow4'
 });
 
 
